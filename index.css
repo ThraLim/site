@@ -1,0 +1,157 @@
+body {
+    background-color: #212529;
+    font-family: Outfit;
+    letter-spacing: 0.09em
+    
+}
+
+
+span {
+    margin-left: 10px;
+    font-size: 15px;
+}
+.containers a {
+    color :#adb5bd;
+    text-decoration: none;
+}
+
+.header a {
+    
+    text-decoration: none;
+    font-size: 21px;
+    margin-right: 15px;
+}
+
+.containers a:hover {
+    color: #6C757D;
+    text-decoration:underline;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 27px;
+}
+
+.accueil-button, .science-button {
+    color:#ADB5BD;
+    transition: transform 0.3s, color 0.3s; /* Add color transition */
+}
+
+
+
+.accueil-button:active .science-button:active{
+    color: #6C757D;
+}
+
+
+.accueil-button:hover, .science-button:hover {
+    color: #6C757D;
+    transform: scale(1.2);
+}
+
+
+
+.ahadith {
+    color: #ADB5BD;
+    padding: 15px 46px;
+    background-color: #343a40;
+    border-radius: 9px;
+    font-size: 12px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.containers {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 167px;
+    margin-right: 167px;
+    margin-top: 56px;
+}
+
+.containers-child {
+    background-color: #343a40;
+    border-radius: 21px;
+    padding: 20px 27px;
+    font-size: 18px;
+    color:#adb5bd;
+    margin: 30px;
+    width: 25%;
+    min-width: 200px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    
+}
+
+.telegram-img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.liens {
+    letter-spacing: 0.09em;
+    margin: 3px
+}
+
+.ytb-img {
+    width: 45px;
+    height: 31px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width:700px) {
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header a {
+        font-size: 15px;
+    }
+    .ahadith {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px 10px;
+    }
+
+    .containers {
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 56px;
+    }
+
+    .containers-child {
+        width: 100%;
+        margin-right: 10px;
+        display: flex;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 20px 0;
+        padding-left: 5px;
+    }
+
+    .images {
+        font-size: 15px;
+        
+    }
+    .world-img {
+        margin-right: 10px;
+        
+    }
+
+    .ytb-img {
+        margin-left: 3px;
+    }
+}
+    
