@@ -36,10 +36,25 @@ span {
 
 .accueil-button, .science-button {
     color:#ADB5BD;
-    transition: transform 0.3s, color 0.3s; /* Add color transition */
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease /* Add color transition */
 }
 
+.accueil-button {
+    background-color: #adb5bd;
+    color: #fff;
+    padding: 1px 3px;
+    border-radius: 5px;
+    
+}
+.science-button {
+    background-color: transparent;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
 
+/* .accueil-button, .science-button {
+    transition: background-color 0.3s ease;
+  } */
 
 .accueil-button:active .science-button:active{
     color: #6C757D;
@@ -47,7 +62,6 @@ span {
 
 
 .accueil-button:hover, .science-button:hover {
-    color: #6C757D;
     transform: scale(1.2);
 }
 
@@ -155,3 +169,4 @@ span {
     }
 }
     
+
